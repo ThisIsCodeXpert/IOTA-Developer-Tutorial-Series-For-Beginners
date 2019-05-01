@@ -1,61 +1,52 @@
-import {composeAPI} from '@iota/core'
+import HMKit from 'hmkit'
+import { composeAPI } from '@iota/core'
+import { generateAddress } from '@iota/core'
 
-
-console.log("Connecting to IOTA devnet...")
-
-
-const iota = composeAPI({
-    provider: 'https://nodes.devnet.iota.org:443'
+process.on('unhandledRejection', (reason, promise) => {
+  console.log('Unhandled Rejection at:', reason.stack || reason)
 })
 
-console.log("Connected to IOTA devnet!")
+const iota = composeAPI({
+  provider: 'https://nodes.devnet.iota.org:443'
+})
 
-iota.getNodeInfo()
-    .then(info => console.log(info))
-    .catch(error => {
-        console.log(`Request error: ${error.message}`)
-    })
+const hmkit = new HMKit(
+  '...'
+)
 
+const vehicleSeed = '...'
 
-let SEED = 'DSIOSVMDGLRZUIGOTZHACZGQEJYMMLXSWKTBMIGKXRNW9YIERRRIFKRGQRHCSQP9WTGJGVIRIHQNDEFSE'
-let ADDRESS = 'LOOJAEBGFVCENJTGZN9LJHSGFVWSYVXLOPSUWDHXBFCWOAOVUVPVOYKEWEHSNGBWBQIKQM9D9KBFIUDH9NEVNVQNOC'
+const accessTokenVehicle = '...'
 
-let addresses = iota.getNewAddress(SEED, {index:1, total: 1, security: 2, checksum: true, returnAll: false}, (error, success) => {
+const chargerSeed = '...'
 
-    if(error){
-        console.log(error)
-    } else {
+const accessTokenCharger = '...'
 
-        console.log(success[0])
-    }
-
-});
-
-
-/*
-function sendIOTA(seed, value, address){
-
-    const transfers = [{
-        address:address,
-        value:value,
-        tag:'',
-        message: ''
-    }]
-
-    const depth = 3
-
-    const minWeightMagnitude = 9
-
-
-    iota.prepareTransfers(seed, transfers)
-        .then(trytes => iota.sendTrytes(trytes, depth, minWeightMagnitude))
-        .then(bundle => {
-            console.log(`Published transaction with tail hash : ${bundle[0].hash}`)
-        })
-        .catch(err => {console.log(err)})
+class HMVehicle {
+  constructor (seed) {
+    this.seed = seed
+  }
 
 }
 
-sendIOTA(SEED, 10, ADDRESS)
+class HMCharger {
+  constructor (seed) {
+    this.seed = seed
+  }
 
-*/
+}
+
+async function app () {
+  try {
+    // init vehicle object
+    var vehicle = new HMVehicle(vehicleSeed)
+    console.log('Vehicle initialized.')
+
+    // init charger object
+    var charger = new HMCharger(chargerSeed)
+    console.log('Charger initialized.')
+
+}
+
+// Run your app
+app()
