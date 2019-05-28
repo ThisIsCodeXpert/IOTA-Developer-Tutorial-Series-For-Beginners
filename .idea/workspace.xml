@@ -2,6 +2,363 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8cf32a23-1a61-4a00-a521-2a76255d9d82" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@iota/bundle-validator/.nyc_output/2c0ee798438529a13203e924c13f30da.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@iota/bundle-validator/.nyc_output/96c31d5cfbaf44cd9ed10827a978872d.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@iota/bundle-validator/.nyc_output/af1c7cc58a75275889ee777a4287c2d9.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@iota/bundle-validator/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@iota/bundle-validator/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@iota/bundle/.nyc_output/d019c2eccfbf17c722dcc2f124bd458f.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@iota/bundle/.nyc_output/e697ee58f91e31003c7be31ee2be7380.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@iota/bundle/out/bundle/src/bundle.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@iota/bundle/out/bundle/src/bundle.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@iota/bundle/out/bundle/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@iota/bundle/out/bundle/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@iota/bundle/out/bundle/src/index.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@iota/bundle/out/bundle/src/index.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@iota/bundle/out/bundle/test/bundle.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@iota/bundle/out/bundle/test/bundle.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@iota/bundle/out/bundle/test/bundle.test.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@iota/bundle/out/bundle/test/bundle.test.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@iota/bundle/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@iota/bundle/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@iota/bundle/src/bundle.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@iota/bundle/src/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@iota/bundle/src/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@iota/bundle/test/bundle.test.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@iota/bundle/test/bundle.test.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@iota/bundle/typings/bundle/src/bundle.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@iota/bundle/typings/bundle/src/index.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@iota/bundle/typings/bundle/src/index.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@iota/checksum/.nyc_output/219ad35772b73011952d404325dc62f0.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@iota/checksum/.nyc_output/8d49829460cd212246059348779c35e2.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@iota/checksum/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@iota/checksum/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@iota/converter/.nyc_output/0c76dd890791d6d7c47a100647b95865.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@iota/converter/.nyc_output/40188206a76a74b57c40d377196d64a8.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@iota/converter/.nyc_output/9a1cc716929a96986b983abdaea96e2d.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@iota/converter/out/src/ascii.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@iota/converter/out/src/ascii.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@iota/converter/out/src/ascii.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@iota/converter/out/src/ascii.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@iota/converter/out/src/trits.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@iota/converter/out/src/trits.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@iota/converter/out/src/trits.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@iota/converter/out/src/trits.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@iota/converter/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@iota/converter/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@iota/converter/src/ascii.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@iota/converter/src/ascii.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@iota/converter/src/trits.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@iota/converter/src/trits.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@iota/core/.nyc_output/03ebdf4ccc67629e48326a0d3e14f0f0.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@iota/core/.nyc_output/09444601e4ecfa3c03a6cc0d14a47360.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@iota/core/.nyc_output/0cb5dcd5381fc532af446845fe512f10.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@iota/core/.nyc_output/0ddc998a6c92b132fdcd8857e625c827.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@iota/core/.nyc_output/169814f856f5524754d2c3b503b8a405.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@iota/core/.nyc_output/182ed3b2deee4c91163f86d0473e9180.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@iota/core/.nyc_output/2aeedc082441cd7a598c0341e6f8fbfc.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@iota/core/.nyc_output/2b14e43ce8a6a3e87ffc043c505ff56d.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@iota/core/.nyc_output/3286d938944b5f19a55940e83a13f4bb.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@iota/core/.nyc_output/43284eabf65ed9d5748a58f11db8eb23.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@iota/core/.nyc_output/5081bbe3ad246f6985e9fc8ae0cd0aac.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@iota/core/.nyc_output/5ad96361e1efc5f6614bed71e6a1a303.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@iota/core/.nyc_output/5f0c69b5f9c0754bef1b970af0b5272d.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@iota/core/.nyc_output/78046972d8f92ca567cec133ab2499c6.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@iota/core/.nyc_output/820dceeadcaa1b64c8ab4108a55e621c.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@iota/core/.nyc_output/a4fe5c1d00a6afdda2865171ab294362.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@iota/core/.nyc_output/abae88304fba6ee67b8e21982d7ce9b3.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@iota/core/.nyc_output/ad3a874a5c90d2479d3b7f00066367df.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@iota/core/.nyc_output/d0fef1b8979eeb91b28a21622ba89aed.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@iota/core/.nyc_output/dead0e6a4616438263296903e0ffaf19.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@iota/core/.nyc_output/e318c954578492e65c38b7867923345a.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@iota/core/.nyc_output/effdf29f834801425ef48b02c4e0c871.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@iota/core/.nyc_output/f9ed8e0840561e088a111add34a497d6.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@iota/core/.nyc_output/ff900fd3e2ffcd88a6edf54c53d5973e.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@iota/core/out/core/src/createPrepareTransfers.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@iota/core/out/core/src/createPrepareTransfers.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@iota/core/out/core/src/createPrepareTransfers.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@iota/core/out/core/src/createPrepareTransfers.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@iota/core/out/core/test/integration/prepareTransfers.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@iota/core/out/core/test/integration/prepareTransfers.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@iota/core/out/core/test/integration/prepareTransfers.test.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@iota/core/out/core/test/integration/prepareTransfers.test.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@iota/core/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@iota/core/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@iota/core/src/createPrepareTransfers.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@iota/core/src/createPrepareTransfers.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@iota/core/test/integration/prepareTransfers.test.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@iota/core/test/integration/prepareTransfers.test.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@iota/curl/out/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@iota/curl/out/index.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@iota/curl/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@iota/curl/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@iota/curl/src/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@iota/curl/src/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@iota/curl/typings/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@iota/http-client/.nyc_output/07a4761c5f42b3cc5c8f018a72bd2d04.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@iota/http-client/.nyc_output/346eb621723d52a7277cab2641e7d344.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@iota/http-client/.nyc_output/67fa7677e72c9886c734248bded7cf2a.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@iota/http-client/.nyc_output/7552f814e83e6173b022a6effa9bb350.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@iota/http-client/.nyc_output/7676fcfa8cdb1d8380af9c0011eab55c.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@iota/http-client/.nyc_output/bc4eaa14ae93456ae37b763b298bb98e.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@iota/http-client/out/http-client/src/request.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@iota/http-client/out/http-client/src/request.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@iota/http-client/out/http-client/src/request.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@iota/http-client/out/http-client/src/request.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@iota/http-client/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@iota/http-client/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@iota/http-client/src/request.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@iota/http-client/src/request.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@iota/http-client/typings/http-client/src/request.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@iota/http-client/typings/http-client/src/request.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@iota/kerl/out/src/errors.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@iota/kerl/out/src/errors.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@iota/kerl/out/src/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@iota/kerl/out/src/index.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@iota/kerl/out/src/kerl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@iota/kerl/out/src/kerl.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@iota/kerl/out/src/word-converter.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@iota/kerl/out/src/word-converter.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@iota/kerl/out/test/kerl.absorb-multi-squeeze.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@iota/kerl/out/test/kerl.absorb-multi-squeeze.test.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@iota/kerl/out/test/kerl.absorb-squeeze.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@iota/kerl/out/test/kerl.absorb-squeeze.test.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@iota/kerl/out/test/kerl.multi-absorb-multi-squeeze.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@iota/kerl/out/test/kerl.multi-absorb-multi-squeeze.test.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@iota/kerl/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@iota/kerl/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@iota/kerl/src/kerl.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@iota/kerl/src/kerl.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@iota/kerl/typings/src/errors.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@iota/kerl/typings/src/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@iota/kerl/typings/src/kerl.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@iota/kerl/typings/src/word-converter.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@iota/kerl/typings/test/kerl.absorb-multi-squeeze.test.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@iota/kerl/typings/test/kerl.absorb-squeeze.test.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@iota/kerl/typings/test/kerl.multi-absorb-multi-squeeze.test.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@iota/pad/.nyc_output/067bccaf7b025b4e8da9ed0724af9925.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@iota/pad/.nyc_output/0e29f06efc817c6da69ea862991547d0.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@iota/pad/.nyc_output/d5ffdc865630df3136d971081e31f5bc.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@iota/pad/.nyc_output/ec16314edafdca9c04656edf8e3c0db7.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@iota/pad/out/pad/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@iota/pad/out/pad/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@iota/pad/out/pad/src/index.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@iota/pad/out/pad/src/index.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@iota/pad/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@iota/pad/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@iota/pad/src/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@iota/pad/src/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@iota/pad/typings/pad/src/index.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@iota/pad/typings/pad/src/index.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@iota/signing/out/signing/src/signing.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@iota/signing/out/signing/src/signing.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@iota/signing/out/signing/src/signing.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@iota/signing/out/signing/src/signing.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@iota/signing/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@iota/signing/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@iota/signing/src/signing.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@iota/signing/src/signing.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@iota/signing/typings/signing/src/signing.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@iota/signing/typings/signing/src/signing.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@iota/transaction-converter/.nyc_output/70ced9d08ada955333af2b6261cac42c.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@iota/transaction-converter/.nyc_output/936ac3889c61c80e0d2a7a991a7b821b.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@iota/transaction-converter/.nyc_output/e9ee8c318632ebe256f246c3851b589d.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@iota/transaction-converter/out/transaction-converter/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@iota/transaction-converter/out/transaction-converter/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@iota/transaction-converter/out/transaction-converter/src/index.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@iota/transaction-converter/out/transaction-converter/src/index.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@iota/transaction-converter/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@iota/transaction-converter/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@iota/transaction-converter/src/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@iota/transaction-converter/src/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@iota/transaction-converter/typings/transaction-converter/src/index.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@iota/transaction-converter/typings/transaction-converter/src/index.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@iota/transaction/.nyc_output/141575c425aa3840a5e82b54c12c8fde.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@iota/transaction/.nyc_output/1cdff606274601c66f538ea1b74f33e9.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@iota/transaction/.nyc_output/288169f11bc334780b030b572f8f84ab.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@iota/transaction/.nyc_output/48ead5ffa10349907616b7ce93846a31.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@iota/transaction/.nyc_output/4f1ae162c5a28be04a7ac4d05b5943ff.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@iota/transaction/.nyc_output/8a03d66a66dcd3c82bcfdabfa3dd45d0.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@iota/transaction/.nyc_output/8be7cf6904af90b10bf4add229bf316f.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@iota/transaction/.nyc_output/cea2f13710226fbae6b0e49ad0d3af2d.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@iota/transaction/.nyc_output/e59632df0bf422234a7e3e044737e8f0.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@iota/transaction/out/transaction/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@iota/transaction/out/transaction/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@iota/transaction/out/transaction/src/index.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@iota/transaction/out/transaction/src/index.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@iota/transaction/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@iota/transaction/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@iota/transaction/src/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@iota/transaction/src/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@iota/transaction/typings/transaction/src/index.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@iota/transaction/typings/transaction/src/index.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@types/bluebird/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@types/bluebird/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@types/bluebird/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@types/bluebird/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@types/bluebird/index.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@types/bluebird/index.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@types/bluebird/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@types/bluebird/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@types/crypto-js/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@types/crypto-js/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@types/isomorphic-fetch/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@types/isomorphic-fetch/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@types/isomorphic-fetch/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@types/isomorphic-fetch/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bluebird/js/browser/bluebird.core.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/bluebird/js/browser/bluebird.core.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bluebird/js/browser/bluebird.core.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/bluebird/js/browser/bluebird.core.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bluebird/js/browser/bluebird.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/bluebird/js/browser/bluebird.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bluebird/js/browser/bluebird.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/bluebird/js/browser/bluebird.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bluebird/js/release/debuggability.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/bluebird/js/release/debuggability.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bluebird/js/release/promise.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/bluebird/js/release/promise.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bluebird/js/release/schedule.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/bluebird/js/release/schedule.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bluebird/js/release/util.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/bluebird/js/release/util.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bluebird/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/bluebird/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/crypto-js/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/crypto-js/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/encoding/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/encoding/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/eslint-plugin-react/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/eslint-plugin-react/CHANGELOG.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/eslint-plugin-react/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/eslint-plugin-react/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/eslint-plugin-react/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/eslint-plugin-react/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/eslint-plugin-react/lib/rules/boolean-prop-naming.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/eslint-plugin-react/lib/rules/boolean-prop-naming.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/eslint-plugin-react/lib/rules/display-name.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/eslint-plugin-react/lib/rules/display-name.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/eslint-plugin-react/lib/rules/jsx-curly-brace-presence.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/eslint-plugin-react/lib/rules/jsx-curly-brace-presence.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/eslint-plugin-react/lib/rules/jsx-indent.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/eslint-plugin-react/lib/rules/jsx-indent.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/eslint-plugin-react/lib/rules/jsx-no-target-blank.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/eslint-plugin-react/lib/rules/jsx-no-target-blank.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/eslint-plugin-react/lib/rules/jsx-one-expression-per-line.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/eslint-plugin-react/lib/rules/jsx-one-expression-per-line.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/eslint-plugin-react/lib/rules/jsx-props-no-multi-spaces.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/eslint-plugin-react/lib/rules/jsx-props-no-multi-spaces.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/eslint-plugin-react/lib/rules/jsx-sort-default-props.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/eslint-plugin-react/lib/rules/jsx-sort-default-props.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/eslint-plugin-react/lib/rules/jsx-sort-props.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/eslint-plugin-react/lib/rules/jsx-sort-props.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/eslint-plugin-react/lib/rules/no-direct-mutation-state.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/eslint-plugin-react/lib/rules/no-direct-mutation-state.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/eslint-plugin-react/lib/rules/no-multi-comp.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/eslint-plugin-react/lib/rules/no-multi-comp.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/eslint-plugin-react/lib/rules/no-string-refs.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/eslint-plugin-react/lib/rules/no-string-refs.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/eslint-plugin-react/lib/rules/no-this-in-sfc.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/eslint-plugin-react/lib/rules/no-this-in-sfc.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/eslint-plugin-react/lib/rules/no-unescaped-entities.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/eslint-plugin-react/lib/rules/no-unescaped-entities.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/eslint-plugin-react/lib/rules/no-unknown-property.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/eslint-plugin-react/lib/rules/no-unknown-property.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/eslint-plugin-react/lib/rules/no-unused-state.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/eslint-plugin-react/lib/rules/no-unused-state.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/eslint-plugin-react/lib/rules/prefer-stateless-function.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/eslint-plugin-react/lib/rules/prefer-stateless-function.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/eslint-plugin-react/lib/rules/require-render-return.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/eslint-plugin-react/lib/rules/require-render-return.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/eslint-plugin-react/lib/rules/self-closing-comp.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/eslint-plugin-react/lib/rules/self-closing-comp.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/eslint-plugin-react/lib/rules/sort-comp.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/eslint-plugin-react/lib/rules/sort-comp.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/eslint-plugin-react/lib/rules/sort-prop-types.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/eslint-plugin-react/lib/rules/sort-prop-types.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/eslint-plugin-react/lib/util/Components.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/eslint-plugin-react/lib/util/Components.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/eslint-plugin-react/lib/util/propTypes.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/eslint-plugin-react/lib/util/propTypes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/eslint-plugin-react/lib/util/props.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/eslint-plugin-react/lib/util/props.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/eslint-plugin-react/lib/util/usedPropTypes.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/eslint-plugin-react/lib/util/usedPropTypes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/eslint-plugin-react/lib/util/version.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/eslint-plugin-react/lib/util/version.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/eslint-plugin-react/node_modules/resolve/.travis.yml" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/eslint-plugin-react/node_modules/resolve/.travis.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/eslint-plugin-react/node_modules/resolve/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/eslint-plugin-react/node_modules/resolve/CHANGELOG.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/eslint-plugin-react/node_modules/resolve/lib/async.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/eslint-plugin-react/node_modules/resolve/lib/async.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/eslint-plugin-react/node_modules/resolve/lib/sync.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/eslint-plugin-react/node_modules/resolve/lib/sync.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/eslint-plugin-react/node_modules/resolve/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/eslint-plugin-react/node_modules/resolve/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/eslint-plugin-react/node_modules/resolve/readme.markdown" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/eslint-plugin-react/node_modules/resolve/readme.markdown" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/eslint-plugin-react/node_modules/resolve/test/mock.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/eslint-plugin-react/node_modules/resolve/test/mock.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/eslint-plugin-react/node_modules/resolve/test/mock_sync.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/eslint-plugin-react/node_modules/resolve/test/mock_sync.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/eslint-plugin-react/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/eslint-plugin-react/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/fsevents/build/Release/fse.node" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/fsevents/build/Release/fse.node" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/fsevents/lib/binding/Release/node-v67-darwin-x64/fse.node" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/fsevents/lib/binding/Release/node-v67-darwin-x64/fse.node" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/hmkit/es/Commands/BaseCommand.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/hmkit/es/Commands/BaseCommand.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/hmkit/es/Commands/BrowserCommand.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/hmkit/es/Commands/BrowserCommand.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/hmkit/es/Commands/ChargingCommand.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/hmkit/es/Commands/ChargingCommand.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/hmkit/es/Commands/ParkingTicketCommand.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/hmkit/es/Commands/ParkingTicketCommand.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/hmkit/es/Commands/RooftopControlCommand.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/hmkit/es/Commands/RooftopControlCommand.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/hmkit/es/Commands/WindowsCommand.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/hmkit/es/Commands/WindowsCommand.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/hmkit/es/HMKit.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/hmkit/es/HMKit.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/hmkit/es/Property.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/hmkit/es/Property.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/hmkit/es/PropertyResponse.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/hmkit/es/PropertyResponse.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/hmkit/es/Responses/CapabilitiesResponse.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/hmkit/es/Responses/CapabilitiesResponse.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/hmkit/es/Responses/ChargingResponse.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/hmkit/es/Responses/ChargingResponse.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/hmkit/es/Responses/ChassisSettingsResponse.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/hmkit/es/Responses/ChassisSettingsResponse.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/hmkit/es/Responses/ClimateResponse.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/hmkit/es/Responses/ClimateResponse.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/hmkit/es/Responses/CruiseControlResponse.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/hmkit/es/Responses/CruiseControlResponse.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/hmkit/es/Responses/DashboardLightsResponse.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/hmkit/es/Responses/DashboardLightsResponse.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/hmkit/es/Responses/DiagnosticsResponse.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/hmkit/es/Responses/DiagnosticsResponse.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/hmkit/es/Responses/DoorLocksResponse.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/hmkit/es/Responses/DoorLocksResponse.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/hmkit/es/Responses/EngineResponse.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/hmkit/es/Responses/EngineResponse.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/hmkit/es/Responses/FailureMessageResponse.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/hmkit/es/Responses/FailureMessageResponse.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/hmkit/es/Responses/FirmwareVersionResponse.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/hmkit/es/Responses/FirmwareVersionResponse.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/hmkit/es/Responses/FuelingResponse.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/hmkit/es/Responses/FuelingResponse.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/hmkit/es/Responses/HistoricalResponse.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/hmkit/es/Responses/HistoricalResponse.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/hmkit/es/Responses/HomeChargerResponse.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/hmkit/es/Responses/HomeChargerResponse.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/hmkit/es/Responses/HonkHornFlashLightsResponse.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/hmkit/es/Responses/HonkHornFlashLightsResponse.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/hmkit/es/Responses/HoodResponse.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/hmkit/es/Responses/HoodResponse.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/hmkit/es/Responses/LightConditionsResponse.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/hmkit/es/Responses/LightConditionsResponse.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/hmkit/es/Responses/LightsResponse.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/hmkit/es/Responses/LightsResponse.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/hmkit/es/Responses/MaintenanceResponse.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/hmkit/es/Responses/MaintenanceResponse.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/hmkit/es/Responses/MobileResponse.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/hmkit/es/Responses/MobileResponse.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/hmkit/es/Responses/NaviDestinationResponse.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/hmkit/es/Responses/NaviDestinationResponse.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/hmkit/es/Responses/OffroadResponse.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/hmkit/es/Responses/OffroadResponse.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/hmkit/es/Responses/ParkingBrakeResponse.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/hmkit/es/Responses/ParkingBrakeResponse.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/hmkit/es/Responses/ParkingTicketResponse.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/hmkit/es/Responses/ParkingTicketResponse.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/hmkit/es/Responses/PowerTakeOffResponse.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/hmkit/es/Responses/PowerTakeOffResponse.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/hmkit/es/Responses/RaceResponse.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/hmkit/es/Responses/RaceResponse.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/hmkit/es/Responses/Response.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/hmkit/es/Responses/Response.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/hmkit/es/Responses/RooftopControlResponse.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/hmkit/es/Responses/RooftopControlResponse.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/hmkit/es/Responses/SeatsResponse.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/hmkit/es/Responses/SeatsResponse.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/hmkit/es/Responses/StartStopResponse.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/hmkit/es/Responses/StartStopResponse.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/hmkit/es/Responses/TachographResponse.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/hmkit/es/Responses/TachographResponse.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/hmkit/es/Responses/TheftAlarmResponse.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/hmkit/es/Responses/TheftAlarmResponse.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/hmkit/es/Responses/TrunkAccessResponse.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/hmkit/es/Responses/TrunkAccessResponse.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/hmkit/es/Responses/UsageResponse.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/hmkit/es/Responses/UsageResponse.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/hmkit/es/Responses/ValetModeResponse.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/hmkit/es/Responses/ValetModeResponse.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/hmkit/es/Responses/VehicleLocationResponse.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/hmkit/es/Responses/VehicleLocationResponse.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/hmkit/es/Responses/VehicleStatusResponse.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/hmkit/es/Responses/VehicleStatusResponse.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/hmkit/es/Responses/VehicleTimeResponse.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/hmkit/es/Responses/VehicleTimeResponse.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/hmkit/es/Responses/WeatherConditionsResponse.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/hmkit/es/Responses/WeatherConditionsResponse.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/hmkit/es/Responses/WiFiResponse.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/hmkit/es/Responses/WiFiResponse.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/hmkit/es/Responses/WindowsResponse.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/hmkit/es/Responses/WindowsResponse.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/hmkit/es/Responses/WindscreenResponse.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/hmkit/es/Responses/WindscreenResponse.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/hmkit/es/encoding.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/hmkit/es/encoding.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/hmkit/es/helpers.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/hmkit/es/helpers.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/hmkit/lib/Commands/BaseCommand.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/hmkit/lib/Commands/BaseCommand.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/hmkit/lib/Commands/BrowserCommand.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/hmkit/lib/Commands/BrowserCommand.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/hmkit/lib/Commands/ChargingCommand.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/hmkit/lib/Commands/ChargingCommand.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/hmkit/lib/Commands/RooftopControlCommand.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/hmkit/lib/Commands/RooftopControlCommand.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/hmkit/lib/Commands/WindowsCommand.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/hmkit/lib/Commands/WindowsCommand.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/hmkit/lib/HMKit.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/hmkit/lib/HMKit.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/hmkit/lib/Property.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/hmkit/lib/Property.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/hmkit/lib/PropertyResponse.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/hmkit/lib/PropertyResponse.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/hmkit/lib/Responses/CapabilitiesResponse.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/hmkit/lib/Responses/CapabilitiesResponse.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/hmkit/lib/Responses/ChargingResponse.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/hmkit/lib/Responses/ChargingResponse.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/hmkit/lib/Responses/ChassisSettingsResponse.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/hmkit/lib/Responses/ChassisSettingsResponse.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/hmkit/lib/Responses/ClimateResponse.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/hmkit/lib/Responses/ClimateResponse.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/hmkit/lib/Responses/CruiseControlResponse.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/hmkit/lib/Responses/CruiseControlResponse.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/hmkit/lib/Responses/DashboardLightsResponse.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/hmkit/lib/Responses/DashboardLightsResponse.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/hmkit/lib/Responses/DiagnosticsResponse.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/hmkit/lib/Responses/DiagnosticsResponse.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/hmkit/lib/Responses/DoorLocksResponse.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/hmkit/lib/Responses/DoorLocksResponse.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/hmkit/lib/Responses/EngineResponse.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/hmkit/lib/Responses/EngineResponse.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/hmkit/lib/Responses/FailureMessageResponse.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/hmkit/lib/Responses/FailureMessageResponse.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/hmkit/lib/Responses/FirmwareVersionResponse.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/hmkit/lib/Responses/FirmwareVersionResponse.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/hmkit/lib/Responses/FuelingResponse.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/hmkit/lib/Responses/FuelingResponse.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/hmkit/lib/Responses/HistoricalResponse.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/hmkit/lib/Responses/HistoricalResponse.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/hmkit/lib/Responses/HomeChargerResponse.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/hmkit/lib/Responses/HomeChargerResponse.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/hmkit/lib/Responses/HonkHornFlashLightsResponse.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/hmkit/lib/Responses/HonkHornFlashLightsResponse.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/hmkit/lib/Responses/HoodResponse.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/hmkit/lib/Responses/HoodResponse.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/hmkit/lib/Responses/LightConditionsResponse.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/hmkit/lib/Responses/LightConditionsResponse.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/hmkit/lib/Responses/LightsResponse.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/hmkit/lib/Responses/LightsResponse.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/hmkit/lib/Responses/MaintenanceResponse.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/hmkit/lib/Responses/MaintenanceResponse.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/hmkit/lib/Responses/MobileResponse.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/hmkit/lib/Responses/MobileResponse.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/hmkit/lib/Responses/NaviDestinationResponse.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/hmkit/lib/Responses/NaviDestinationResponse.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/hmkit/lib/Responses/OffroadResponse.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/hmkit/lib/Responses/OffroadResponse.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/hmkit/lib/Responses/ParkingBrakeResponse.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/hmkit/lib/Responses/ParkingBrakeResponse.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/hmkit/lib/Responses/ParkingTicketResponse.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/hmkit/lib/Responses/ParkingTicketResponse.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/hmkit/lib/Responses/PowerTakeOffResponse.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/hmkit/lib/Responses/PowerTakeOffResponse.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/hmkit/lib/Responses/RaceResponse.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/hmkit/lib/Responses/RaceResponse.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/hmkit/lib/Responses/Response.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/hmkit/lib/Responses/Response.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/hmkit/lib/Responses/RooftopControlResponse.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/hmkit/lib/Responses/RooftopControlResponse.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/hmkit/lib/Responses/SeatsResponse.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/hmkit/lib/Responses/SeatsResponse.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/hmkit/lib/Responses/StartStopResponse.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/hmkit/lib/Responses/StartStopResponse.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/hmkit/lib/Responses/TachographResponse.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/hmkit/lib/Responses/TachographResponse.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/hmkit/lib/Responses/TheftAlarmResponse.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/hmkit/lib/Responses/TheftAlarmResponse.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/hmkit/lib/Responses/TrunkAccessResponse.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/hmkit/lib/Responses/TrunkAccessResponse.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/hmkit/lib/Responses/UsageResponse.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/hmkit/lib/Responses/UsageResponse.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/hmkit/lib/Responses/ValetModeResponse.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/hmkit/lib/Responses/ValetModeResponse.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/hmkit/lib/Responses/VehicleLocationResponse.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/hmkit/lib/Responses/VehicleLocationResponse.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/hmkit/lib/Responses/VehicleStatusResponse.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/hmkit/lib/Responses/VehicleStatusResponse.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/hmkit/lib/Responses/VehicleTimeResponse.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/hmkit/lib/Responses/VehicleTimeResponse.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/hmkit/lib/Responses/WeatherConditionsResponse.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/hmkit/lib/Responses/WeatherConditionsResponse.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/hmkit/lib/Responses/WiFiResponse.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/hmkit/lib/Responses/WiFiResponse.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/hmkit/lib/Responses/WindowsResponse.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/hmkit/lib/Responses/WindowsResponse.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/hmkit/lib/Responses/WindscreenResponse.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/hmkit/lib/Responses/WindscreenResponse.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/hmkit/lib/encoding.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/hmkit/lib/encoding.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/hmkit/lib/helpers.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/hmkit/lib/helpers.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/hmkit/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/hmkit/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/iconv-lite/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/iconv-lite/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/is-stream/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/is-stream/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/isomorphic-fetch/.editorconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/isomorphic-fetch/.jshintrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/isomorphic-fetch/.npmignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/isomorphic-fetch/.travis.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/isomorphic-fetch/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/isomorphic-fetch/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/isomorphic-fetch/bower.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/isomorphic-fetch/fetch-bower.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/isomorphic-fetch/fetch-npm-browserify.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/isomorphic-fetch/fetch-npm-node.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/isomorphic-fetch/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/isomorphic-fetch/test/api.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jsx-ast-utils/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/jsx-ast-utils/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/lodash/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nan/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nan/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-fetch/.npmignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-fetch/.travis.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-fetch/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/node-fetch/CHANGELOG.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-fetch/ERROR-HANDLING.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-fetch/LIMITS.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-fetch/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/node-fetch/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-fetch/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-fetch/lib/body.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-fetch/lib/fetch-error.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-fetch/lib/headers.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-fetch/lib/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/node-fetch/lib/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-fetch/lib/request.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-fetch/lib/response.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-fetch/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/node-fetch/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-fetch/test/dummy.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-fetch/test/server.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-fetch/test/test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/normalize-package-data/node_modules/resolve/.travis.yml" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/normalize-package-data/node_modules/resolve/.travis.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/normalize-package-data/node_modules/resolve/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/normalize-package-data/node_modules/resolve/CHANGELOG.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/normalize-package-data/node_modules/resolve/lib/async.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/normalize-package-data/node_modules/resolve/lib/async.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/normalize-package-data/node_modules/resolve/lib/sync.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/normalize-package-data/node_modules/resolve/lib/sync.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/normalize-package-data/node_modules/resolve/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/normalize-package-data/node_modules/resolve/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/normalize-package-data/node_modules/resolve/readme.markdown" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/normalize-package-data/node_modules/resolve/readme.markdown" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/normalize-package-data/node_modules/resolve/test/mock.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/normalize-package-data/node_modules/resolve/test/mock.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/normalize-package-data/node_modules/resolve/test/mock_sync.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/normalize-package-data/node_modules/resolve/test/mock_sync.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/prop-types/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/prop-types/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/safer-buffer/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/safer-buffer/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/whatwg-fetch/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/whatwg-fetch/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/whatwg-fetch/dist/fetch.umd.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/whatwg-fetch/dist/fetch.umd.js.flow" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/whatwg-fetch/fetch.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/whatwg-fetch/fetch.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/whatwg-fetch/fetch.js.flow" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/whatwg-fetch/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/whatwg-fetch/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -14,8 +371,12 @@
     <session id="-476128912">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="3" />
           <entry key="project.open.time.0" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.open.time.13" value="1" />
+          <entry key="project.open.time.15" value="1" />
+          <entry key="project.open.time.18" value="1" />
+          <entry key="project.opened" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -35,25 +396,27 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="js" value="901" />
+          <entry key="js" value="2338" />
+          <entry key="json" value="7" />
           <entry key="md" value="174" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JavaScript" value="901" />
+          <entry key="JSON" value="7" />
+          <entry key="JavaScript" value="2338" />
           <entry key="PLAIN_TEXT" value="174" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+            <state relative-caret-position="283">
+              <caret line="151" column="42" selection-start-line="151" selection-start-column="42" selection-end-line="151" selection-end-column="42" />
             </state>
           </provider>
         </entry>
@@ -61,8 +424,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="14" lean-forward="true" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
+            <state relative-caret-position="135">
+              <caret line="9" column="32" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
             </state>
           </provider>
         </entry>
@@ -72,6 +435,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>trie</find>
+      <find>sendTransaction</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -88,11 +452,12 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/src/app.js" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
+  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
     <option name="width" value="1280" />
     <option name="height" value="800" />
   </component>
@@ -102,8 +467,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="AndroidView" />
       <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -125,7 +490,7 @@
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -160,16 +525,13 @@
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Image Layers" />
-      <window_info id="Designer" />
-      <window_info id="UI Designer" />
-      <window_info id="Capture Tool" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24959612" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26171243" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -177,14 +539,17 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Maven Projects" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="right" id="Maven Projects" order="7" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -212,15 +577,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="14" lean-forward="true" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
+        <state relative-caret-position="135">
+          <caret line="9" column="32" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        <state relative-caret-position="283">
+          <caret line="151" column="42" selection-start-line="151" selection-start-column="42" selection-end-line="151" selection-end-column="42" />
         </state>
       </provider>
     </entry>
